@@ -13,3 +13,20 @@ This project includes scripts for converting PDF documents into JSON format. It 
 
 - **Master and Child Document Schemas**: The project defines separate JSON schemas for master and child documents, which guide the conversion of PDF data into structured JSON.
 - **PDF to JSON Conversion**: The `ChildFileExtractJSON.py` and `MasterFileExtractJSON.py` scripts automate the conversion process for child and master PDFs, respectively, based on their corresponding schemas.
+
+## Setup 
+- clone the repo
+
+- ```bash
+  pip install -r requirements.txt
+  ```
+
+Set ur pdf file path
+
+- ```bash
+   python MasterFileExtractJSON.py 
+  ```
+- ```bash
+  python ChildFileExtractJSON.py
+  ```
+  
