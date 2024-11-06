@@ -21,17 +21,6 @@ This repository provides an in-depth analysis and comparison of four popular Tex
 ### Why Nixtts?
 **Nixtts** delivers top-quality voice synthesis with a balanced trade-off between speed and voice naturalness, making it ideal for both real-time applications and high-quality offline processing. Its customizable features allow users to adjust pitch, tone, and speed, providing versatility across a wide range of applications.
 
-## Setup and Installation
-
-Clone the repository and install the required packages.
-
-```bash
-git clone https://github.com/yourusername/tts-models-comparison.git
-cd tts-models-comparison
-pip install -r requirements.txt
-```
-
-
 ## Results and Recommendations
 
 *Nixtts* demonstrated the highest level of accuracy and naturalness in voice synthesis, along with fast processing speed, making it the recommended model for both production-level TTS applications and personal projects.
