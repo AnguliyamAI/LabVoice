@@ -1,4 +1,4 @@
-# ** Guide **
+# Guide
 
 
 ## **1. Updated System Architecture Overview**
