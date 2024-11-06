@@ -22,6 +22,7 @@ This project includes scripts for converting PDF documents into JSON format. It 
   ```
 
 Set ur pdf file path
+Set Openai Key
 
 - ```bash
    python MasterFileExtractJSON.py 
