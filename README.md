@@ -26,7 +26,7 @@ chatbot2.txt: Contains the system message or instructions that define the chatbo
 
 ### Setup
 Install Required Libraries: Use the command above to install the necessary libraries.
-
+- clone the repo
 - Set OpenAI API Key: Insert your OpenAI API key in the client = OpenAI(api_key="") line.
 - make sure you have a CUDA-compatible GPU for optimal performance, as this application utilizes GPU acceleration.
 - Install Espeak
