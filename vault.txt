@@ -1,0 +1,34 @@
+Name:
+Lorazepam/Diphenhydramine/Haloperidol/Metoclopramide Topical Gel
+
+Formula:
+1. Lorazepam USP CIV - 0.01 g  
+2. Diphenhydramine Hydrochloride USP - 0.125 g  
+3. Haloperidol USP - 0.02 g  
+4. Metoclopramide Hydrochloride USP Monohydrate - 0.236 g  
+5. Propylene Glycol USP - 0.5 ml  
+6. Base, PCCA Perme8® Anhydrous Gel - q.s. 10 ml  
+
+Procedure: 
+1. Triturate Lorazepam, Diphenhydramine Hydrochloride, Haloperidol, and Metoclopramide Hydrochloride together. Add Propylene Glycol and mix well.  
+2. Add PCCA PermE8 Anhydrous Gel Base in portions (approx. 60% of final volume) and mix well.  
+3. Transfer mixture to a syringe, measure, and calculate additional gel base needed for the final volume.  
+4. Prepare a syringe with the required amount of additional PCCA PermE8 Anhydrous Gel Base.  
+5. Connect both syringes using an Oral/Oral Adapter.  
+6. Mix back and forth until uniform.  
+7. Dispense final preparation in 1 mL syringes.  
+8. Physical description: off-white to pale beige gel.  
+
+Notes:
+- Protect from light; store in an air-tight, light-resistant container at 20°-25°C.  
+- Lorazepam may be incompatible with certain plastics like PVC.  
+- Follow controlled substance record requirements.  
+- USP standards require intended strength to be within ±10% of labeled API strength.  
+- No claims on safety or efficacy; estimated BUD is 180 days.  
+- PCCA disclaimer on physical integrity, solubility, potency, or uniformity issues with formulation changes.
+
+Literature References:  
+1. Samanta, M.K., et al. (2003). *Transdermal drug delivery system of haloperidol*. Drug Development and Industrial Pharmacy, 29(4), 405-415.  
+2. Bleicher, J., et al. (2008). *Lorazepam, diphenhydramine, and haloperidol transdermal gel for chemotherapy-induced nausea/vomiting*. Journal of Supportive Oncology, 6(1), 27-32.  
+3. Moon, R.B. (2006). *ABHR gel in nausea and vomiting in hospice patients*. International Journal of Pharmaceutical Compounding, 10(2), 95.  
+
