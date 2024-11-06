@@ -1,3 +1,4 @@
+
 # LabVoice
 Voice-Activated Digital Assistant for SOP Execution in Compounding Labs
 
@@ -164,4 +165,11 @@ The primary purpose of LabVoice is to address the unique challenges faced by pha
 - User base growth
 - Performance scaling
 
+## Additional Resources
+
+For further information and resources related to **LabVoice**, we invite you to explore our website: [**Anguliyam**](https://anguliyam.com/).
+
+You can also access our presentation slides here: [**Slides**](https://www.canva.com/design/DAGTjufTJpY/0I7Xa1sOlD9MVE42YNdhKA/edit?utm_content=DAGTjufTJpY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+
+Check out our demo video to see LabVoice in action: [**Demo Video**](https://youtu.be/6BWFZrj8zgk).
 
