@@ -1,0 +1,63 @@
+{
+    "type": "object",
+    "properties": {
+      "Name": {
+        "type": "string",
+        "description": "The name of the final product, indicating its purpose or function."
+      },
+      "Formula": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "IngredientName": {
+              "type": "string",
+              "description": "The specific name of each ingredient used in the formulation."
+            },
+            "Amount": {
+              "type": "string",
+              "description": "The precise quantity of the ingredient required, expressed in appropriate units (e.g., grams, milliliters)."
+            }
+          },
+          "required": ["IngredientName", "Amount"]
+        },
+        "description": "A list of ingredients along with their corresponding amounts needed to create the final product."
+      },
+      "Procedure": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "Step": {
+              "type": "integer",
+              "description": "The sequential number indicating the order of steps in the preparation process."
+            },
+            "Instruction": {
+              "type": "string",
+              "description": "A detailed description of the actions to be performed at this step, including any specific techniques or precautions."
+            }
+          },
+          "required": ["Step", "Instruction"]
+        },
+        "description": "A step-by-step guide outlining the process to prepare the final product, ensuring clarity and ease of understanding."
+      },
+      "Notes": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "description": "Supplementary information, tips, or considerations related to the formulation or procedure that may enhance understanding or effectiveness."
+        },
+        "description": "Additional notes that provide context, clarification, or helpful hints regarding the product or its preparation."
+      },
+      "Literature": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "description": "References related to the formulation, use, or effectiveness of the product."
+        },
+        "description": "A list of references providing background or evidence for the formulation."
+      }
+    },
+    "required": ["Name", "Formula", "Procedure"]
+  }
+  

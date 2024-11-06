@@ -1,0 +1,188 @@
+{
+    "TITLE": {
+        "type": "string",
+        "description": "The title of the SOP document."
+    },
+    "SOPNumber": {
+        "type": "string",
+        "description": "The unique identification number for the SOP."
+    },
+    "VersionNumber": {
+        "type": "string",
+        "description": "The version number of the SOP document."
+    },
+    "PURPOSE": {
+        "type": "object",
+        "properties": {
+        "Description": {
+            "type": "string",
+            "description": "The purpose or objective of the procedure."
+        }
+        },
+        "required": ["Description"]
+    },
+    "RESPONSIBILITY": {
+        "type": "object",
+        "properties": {
+        "Supervision": {
+            "type": "string",
+            "description": "The role(s) responsible for supervising the procedure."
+        },
+        "Personnel": {
+            "type": "string",
+            "description": "The staff responsible for performing the tasks outlined."
+        }
+        },
+        "required": ["Supervision", "Personnel"]
+    },
+    "REFERENCES": {
+        "type": "array",
+        "items": {
+        "type": "string",
+        "description": "Any SOPs or documents referenced for the procedure."
+        },
+        "description": "References for supporting documentation."
+    },
+    "DEFINITIONS": {
+        "type": "array",
+        "items": {
+        "type": "object",
+        "properties": {
+            "Term": {
+            "type": "string",
+            "description": "The term being defined."
+            },
+            "Definition": {
+            "type": "string",
+            "description": "The explanation or meaning of the term."
+            }
+        },
+        "required": ["Term", "Definition"]
+        },
+        "description": "Definitions of terms used within the procedure."
+    },
+    "FREQUENCY": {
+        "type": "object",
+        "properties": {
+        "Occurrence": {
+            "type": "string",
+            "description": "How often the procedure should be performed."
+        }
+        },
+        "required": ["Occurrence"]
+    },
+    "EQUIPMENT_SUPPLIES": {
+        "type": "array",
+        "items": {
+        "type": "string",
+        "description": "Equipment or supplies required to perform the procedure."
+        },
+        "description": "List of equipment and supplies necessary for the procedure."
+    },
+    "PROCEDURE": {
+        "type": "array",
+        "items": {
+        "type": "object",
+        "properties": {
+            "Section": {
+            "type": "string",
+            "description": "The title or topic of the section (e.g., Measurement System, Mixing)."
+            },
+            "Steps": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                "Subsection": {
+                    "type": "string",
+                    "description": "Subsection number (e.g., 7.1, 7.2)."
+                },
+                "Heading": {
+                    "type": "string",
+                    "description": "The heading of the subsection that describes its focus."
+                },
+                "Step": {
+                    "type": "string",
+                    "description": "The main description of the step within this subsection."
+                },
+                "Substeps": {
+                    "type": "array",
+                    "items": {
+                    "type": "object",
+                    "properties": {
+                        "SubstepNumber": {
+                        "type": "string",
+                        "description": "The substep number for detailed instruction (e.g., 7.1.1, 7.2.2.1)."
+                        },
+                        "Substep": {
+                        "type": "string",
+                        "description": "A detailed description of the substep."
+                        }
+                    },
+                    "required": ["SubstepNumber", "Substep"]
+                    },
+                    "description": "List of substeps associated with a particular step."
+                },
+                "AdditionalInfo": {
+                    "type": "array",
+                    "items": {
+                    "type": "object",
+                    "properties": {
+                        "InfoType": {
+                        "type": "string",
+                        "description": "The type of additional information (e.g., 'Note', 'Warning', 'Tip')."
+                        },
+                        "InfoContent": {
+                        "type": "string",
+                        "description": "The actual content of the additional information."
+                        }
+                    },
+                    "required": ["InfoType", "InfoContent"]
+                    },
+                    "description": "Additional information, notes, or warnings related to this step."
+                }
+                },
+                "required": ["Subsection", "Heading", "Step"]
+            }
+            }
+        },
+        "required": ["Section", "Steps"]
+        }
+    },
+    "ATTACHMENTS": {
+        "type": "array",
+        "items": {
+        "type": "string",
+        "description": "List of any attachments or supporting documents related to the procedure."
+        },
+        "description": "Attachments that provide additional information or details."
+    },
+    "HISTORY": {
+        "type": "object",
+        "properties": {
+        "Changes": {
+            "type": "array",
+            "items": {
+            "type": "object",
+            "properties": {
+                "Version": {
+                "type": "string",
+                "description": "Version number of the SOP."
+                },
+                "EffectiveDate": {
+                "type": "string",
+                "description": "Date when the SOP became effective."
+                },
+                "ChangeDescription": {
+                "type": "string",
+                "description": "Description of changes made in this version."
+                }
+            },
+            "required": ["Version", "EffectiveDate", "ChangeDescription"]
+            },
+            "description": "A history of changes to the SOP."
+        }
+        },
+        "required": ["Changes"]
+    }
+    }
