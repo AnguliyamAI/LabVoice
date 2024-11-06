@@ -1,7 +1,7 @@
 # Guide
 
 
-## **1. Updated System Architecture Overview**
+## **1. System Architecture**
 
 ### **User Interaction Flow**
 
