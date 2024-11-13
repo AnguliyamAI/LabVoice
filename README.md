@@ -16,7 +16,7 @@ Sample docker file
 
 
 FROM nvidia/cuda:12.1.1-cudnn8-devel-ubuntu20.04
-# Set the working directory
+
 WORKDIR /app
 
 RUN apt-get update && \
